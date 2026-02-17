@@ -1,9 +1,16 @@
 # Seasonal Recipe Recommender
 
-A local, offline Python CLI that recommends seasonal recipes based on date, location, and optional requirements. It learns from feedback to improve future recommendations.
+A Python program recommends seasonal recipes based on date, location, and optional requirements. It learns from feedback to improve future recommendations. It gives seasonal food and recipes based on Lunar Term through the panel "LunarTermRecipe".
 
-This version launches a desktop GUI for all inputs and outputs.
+This version launches a desktop GUI for all inputs and outputs. A user can enter a recipe with a score, and the program uses re-inforced machine learning based on the score for next time recipe recommendation.
+
 It also includes a Lunar Term Food tab for 24 solar-term recommendations in English.
+
+Traditional Chinese medicine emphasizes body recuperation through proper seasonal food and recipes.
+
+**Hope that this program could give some heplful recipe recommendation to long COVID patients for body recuperation. However, a patient should discuss with a doctor before taking a recipe recommendation from this program.**
+
+Still need domain experts to give more recipes and suggestions. This program is just a demo, need to make it better.
 
 ## Run
 
@@ -80,3 +87,6 @@ python -m unittest
 - `main.py` app entry
 - `data/recipes.json` recipe catalog
 - `data/ratings.json` feedback data
+
+**Dong Sun Wong**
+**Email**: [Reach out for collaborations](mailto:donwong07@gmail.com)
