@@ -1,0 +1,883 @@
+[
+  {
+    "country_tags": [
+      "united states",
+      "canada",
+      "europe"
+    ],
+    "dietary_tags": [
+      "gluten-free",
+      "quick"
+    ],
+    "id": "lemon-herb-salmon-5c8a1f",
+    "ingredients": [
+      "salmon fillets",
+      "asparagus",
+      "lemon",
+      "olive oil",
+      "garlic",
+      "parsley",
+      "salt",
+      "pepper"
+    ],
+    "ingredients_zh": [
+      "三文鱼片",
+      "芦笋",
+      "柠檬",
+      "橄榄油",
+      "大蒜",
+      "欧芹",
+      "盐",
+      "黑胡椒"
+    ],
+    "name": "Lemon Herb Salmon with Asparagus",
+    "name_zh": "柠檬香草三文鱼配芦笋",
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "steps": [
+      "Preheat oven to 400F.",
+      "Toss asparagus with olive oil, salt, and pepper on a sheet pan.",
+      "Place salmon alongside asparagus, top with garlic, lemon, and parsley.",
+      "Roast 12 to 15 minutes until salmon flakes easily."
+    ],
+    "steps_zh": [
+      "预热烤箱至 400F。",
+      "将芦笋与橄榄油、盐和黑胡椒拌匀，铺在烤盘上。",
+      "把三文鱼放在芦笋旁，撒上蒜末、柠檬和欧芹。",
+      "烤 12 到 15 分钟至三文鱼易碎。"
+    ],
+    "time_minutes": 20,
+    "date": "2024-02-04",
+    "solar_term": "立春"
+  },
+  {
+    "country_tags": [
+      "united states",
+      "europe"
+    ],
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "id": "mushroom-barley-stew-5b1a72",
+    "ingredients": [
+      "cremini mushrooms",
+      "carrots",
+      "celery",
+      "onion",
+      "garlic",
+      "pearl barley",
+      "vegetable broth",
+      "thyme",
+      "bay leaf"
+    ],
+    "ingredients_zh": [
+      "褐蘑菇",
+      "胡萝卜",
+      "芹菜",
+      "洋葱",
+      "大蒜",
+      "珍珠大麦",
+      "蔬菜高汤",
+      "百里香",
+      "月桂叶"
+    ],
+    "name": "Mushroom Barley Stew",
+    "name_zh": "蘑菇大麦炖菜",
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "steps": [
+      "Saute onion, carrot, celery, and garlic until soft.",
+      "Add mushrooms and cook until browned.",
+      "Stir in barley, broth, thyme, and bay leaf.",
+      "Simmer 35 to 45 minutes until barley is tender."
+    ],
+    "steps_zh": [
+      "炒香洋葱、胡萝卜、芹菜和大蒜至变软。",
+      "加入蘑菇炒至上色。",
+      "拌入大麦、高汤、百里香和月桂叶。",
+      "小火炖 35 到 45 分钟至大麦软烂。"
+    ],
+    "time_minutes": 50,
+    "date": "2024-02-19",
+    "solar_term": "雨水"
+  },
+  {
+    "country_tags": [
+      "japan",
+      "korea",
+      "europe"
+    ],
+    "dietary_tags": [
+      "vegan",
+      "quick"
+    ],
+    "id": "chilled-cucumber-noodle-bowl-2ac9e0",
+    "ingredients": [
+      "cucumber noodles",
+      "rice vinegar",
+      "sesame oil",
+      "soy sauce",
+      "ginger",
+      "scallions",
+      "sesame seeds"
+    ],
+    "ingredients_zh": [
+      "黄瓜面",
+      "米醋",
+      "香油",
+      "酱油",
+      "姜",
+      "葱",
+      "芝麻"
+    ],
+    "name": "Chilled Cucumber Noodle Bowl",
+    "name_zh": "冰镇黄瓜面碗",
+    "seasons": [
+      "summer"
+    ],
+    "steps": [
+      "Whisk vinegar, sesame oil, soy sauce, and ginger.",
+      "Toss cucumber noodles in dressing.",
+      "Top with scallions and sesame seeds, chill 10 minutes."
+    ],
+    "steps_zh": [
+      "将米醋、香油、酱油和姜搅匀。",
+      "用调味汁拌匀黄瓜面。",
+      "撒上葱花和芝麻，冷藏 10 分钟。"
+    ],
+    "time_minutes": 15,
+    "date": "2024-03-05",
+    "solar_term": "惊蛰"
+  },
+  {
+    "country_tags": [
+      "italy",
+      "europe"
+    ],
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "id": "pumpkin-sage-risotto-9b2e4d",
+    "ingredients": [
+      "arborio rice",
+      "pumpkin puree",
+      "vegetable broth",
+      "onion",
+      "garlic",
+      "sage",
+      "parmesan",
+      "butter"
+    ],
+    "ingredients_zh": [
+      "阿博里奥米",
+      "南瓜泥",
+      "蔬菜高汤",
+      "洋葱",
+      "大蒜",
+      "鼠尾草",
+      "帕玛森",
+      "黄油"
+    ],
+    "name": "Pumpkin Sage Risotto",
+    "name_zh": "南瓜鼠尾草烩饭",
+    "seasons": [
+      "autumn"
+    ],
+    "steps": [
+      "Saute onion and garlic in butter.",
+      "Stir in rice until lightly toasted.",
+      "Add broth gradually, stirring until absorbed.",
+      "Mix in pumpkin and sage, finish with parmesan."
+    ],
+    "steps_zh": [
+      "用黄油炒香洋葱和大蒜。",
+      "加入米炒至略微变透明。",
+      "逐次加入高汤并不断搅拌至吸收。",
+      "拌入南瓜和鼠尾草，最后加入帕玛森。"
+    ],
+    "time_minutes": 40,
+    "date": "2024-03-20",
+    "solar_term": "春分"
+  },
+  {
+    "country_tags": [
+      "italy",
+      "europe",
+      "united states"
+    ],
+    "dietary_tags": [
+      "vegetarian",
+      "quick"
+    ],
+    "id": "tomato-basil-pasta-41f8b2",
+    "ingredients": [
+      "pasta",
+      "cherry tomatoes",
+      "basil",
+      "garlic",
+      "olive oil",
+      "parmesan"
+    ],
+    "ingredients_zh": [
+      "意面",
+      "樱桃番茄",
+      "罗勒",
+      "大蒜",
+      "橄榄油",
+      "帕玛森"
+    ],
+    "name": "Tomato Basil Pasta",
+    "name_zh": "番茄罗勒意面",
+    "seasons": [
+      "summer"
+    ],
+    "steps": [
+      "Cook pasta until al dente.",
+      "Saute garlic and tomatoes in olive oil.",
+      "Toss pasta with tomatoes and basil, top with parmesan."
+    ],
+    "steps_zh": [
+      "把意面煮至略硬。",
+      "用橄榄油炒香大蒜和番茄。",
+      "将意面与番茄和罗勒拌匀，撒上帕玛森。"
+    ],
+    "time_minutes": 25,
+    "date": "2024-04-04",
+    "solar_term": "清明"
+  },
+  {
+    "country_tags": [
+      "india",
+      "south asia"
+    ],
+    "dietary_tags": [
+      "vegan",
+      "gluten-free",
+      "spicy"
+    ],
+    "id": "spiced-lentil-curry-0d31aa",
+    "ingredients": [
+      "red lentils",
+      "onion",
+      "garlic",
+      "ginger",
+      "tomato",
+      "curry powder",
+      "coconut milk",
+      "spinach"
+    ],
+    "ingredients_zh": [
+      "红扁豆",
+      "洋葱",
+      "大蒜",
+      "姜",
+      "番茄",
+      "咖喱粉",
+      "椰奶",
+      "菠菜"
+    ],
+    "name": "Spiced Lentil Curry",
+    "name_zh": "香辣扁豆咖喱",
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "steps": [
+      "Saute onion, garlic, and ginger.",
+      "Add lentils, tomato, curry powder, and water.",
+      "Simmer until lentils are tender, stir in coconut milk and spinach."
+    ],
+    "steps_zh": [
+      "炒香洋葱、大蒜和姜。",
+      "加入扁豆、番茄、咖喱粉和水。",
+      "炖至扁豆软烂，拌入椰奶和菠菜。"
+    ],
+    "time_minutes": 35,
+    "date": "2024-04-19",
+    "solar_term": "谷雨"
+  },
+  {
+    "country_tags": [
+      "united states",
+      "europe"
+    ],
+    "dietary_tags": [
+      "vegetarian",
+      "quick"
+    ],
+    "id": "spring-berry-yogurt-parfait-2b8c6e",
+    "ingredients": [
+      "greek yogurt",
+      "strawberries",
+      "blueberries",
+      "granola",
+      "honey",
+      "lemon zest"
+    ],
+    "ingredients_zh": [
+      "希腊酸奶",
+      "草莓",
+      "蓝莓",
+      "格兰诺拉",
+      "蜂蜜",
+      "柠檬皮屑"
+    ],
+    "name": "Spring Berry Yogurt Parfait",
+    "name_zh": "春季莓果酸奶杯",
+    "seasons": [
+      "spring"
+    ],
+    "steps": [
+      "Layer yogurt, berries, and granola in a glass.",
+      "Drizzle honey and add lemon zest before serving."
+    ],
+    "steps_zh": [
+      "将酸奶、莓果和格兰诺拉分层放入杯中。",
+      "食用前淋上蜂蜜并撒上柠檬皮屑。"
+    ],
+    "time_minutes": 10,
+    "date": "2024-05-05",
+    "solar_term": "立夏"
+  },
+  {
+    "country_tags": [
+      "united states",
+      "europe"
+    ],
+    "dietary_tags": [
+      "vegan",
+      "gluten-free"
+    ],
+    "id": "roasted-root-vegetable-traybake-3a7d12",
+    "ingredients": [
+      "carrots",
+      "parsnips",
+      "sweet potatoes",
+      "red onion",
+      "olive oil",
+      "rosemary",
+      "salt",
+      "pepper"
+    ],
+    "ingredients_zh": [
+      "胡萝卜",
+      "防风草",
+      "红薯",
+      "红洋葱",
+      "橄榄油",
+      "迷迭香",
+      "盐",
+      "黑胡椒"
+    ],
+    "name": "Roasted Root Vegetable Traybake",
+    "name_zh": "烤根茎蔬菜拼盘",
+    "seasons": [
+      "winter",
+      "autumn"
+    ],
+    "steps": [
+      "Preheat oven to 425F.",
+      "Toss vegetables with olive oil, rosemary, salt, and pepper.",
+      "Roast 30 to 35 minutes until caramelized."
+    ],
+    "steps_zh": [
+      "预热烤箱至 425F。",
+      "将蔬菜与橄榄油、迷迭香、盐和黑胡椒拌匀。",
+      "烤 30 到 35 分钟至表面焦香。"
+    ],
+    "time_minutes": 40,
+    "date": "2024-05-20",
+    "solar_term": "小满"
+  },
+  {
+    "country_tags": [
+      "mexico",
+      "united states"
+    ],
+    "dietary_tags": [
+      "gluten-free",
+      "spicy",
+      "high-protein"
+    ],
+    "id": "chipotle-chicken-lettuce-wraps-70f3a9",
+    "ingredients": [
+      "chicken breast",
+      "chipotle powder",
+      "lime",
+      "romaine leaves",
+      "red onion",
+      "tomato",
+      "olive oil",
+      "salt"
+    ],
+    "ingredients_zh": [
+      "鸡胸肉",
+      "墨西哥烟熏辣椒粉",
+      "青柠",
+      "罗马生菜叶",
+      "红洋葱",
+      "番茄",
+      "橄榄油",
+      "盐"
+    ],
+    "name": "Chipotle Chicken Lettuce Wraps",
+    "name_zh": "辣椒熏味鸡肉生菜卷",
+    "seasons": [
+      "summer",
+      "spring"
+    ],
+    "steps": [
+      "Season chicken with chipotle, salt, and lime.",
+      "Sear chicken until cooked through, slice thinly.",
+      "Fill romaine leaves with chicken and chopped vegetables."
+    ],
+    "steps_zh": [
+      "用辣椒粉、盐和青柠给鸡肉调味。",
+      "将鸡肉煎熟后切薄片。",
+      "用罗马生菜叶包裹鸡肉和蔬菜。"
+    ],
+    "time_minutes": 25,
+    "date": "2024-06-05",
+    "solar_term": "芒种"
+  },
+  {
+    "country_tags": [
+      "mediterranean",
+      "greece"
+    ],
+    "dietary_tags": [
+      "vegetarian",
+      "quick"
+    ],
+    "id": "mediterranean-chickpea-salad-1d93c4",
+    "ingredients": [
+      "chickpeas",
+      "cucumber",
+      "tomatoes",
+      "red onion",
+      "feta",
+      "olive oil",
+      "lemon",
+      "oregano"
+    ],
+    "ingredients_zh": [
+      "鹰嘴豆",
+      "黄瓜",
+      "番茄",
+      "红洋葱",
+      "菲达奶酪",
+      "橄榄油",
+      "柠檬",
+      "牛至"
+    ],
+    "name": "Mediterranean Chickpea Salad",
+    "name_zh": "地中海鹰嘴豆沙拉",
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "steps": [
+      "Combine chickpeas, cucumber, tomatoes, and onion.",
+      "Toss with olive oil, lemon, oregano, and feta."
+    ],
+    "steps_zh": [
+      "将鹰嘴豆、黄瓜、番茄和洋葱混合。",
+      "拌入橄榄油、柠檬、牛至和菲达奶酪。"
+    ],
+    "time_minutes": 15,
+    "date": "2024-06-21",
+    "solar_term": "夏至"
+  },
+  {
+    "country_tags": [
+      "china",
+      "east asia"
+    ],
+    "dietary_tags": [
+      "spicy",
+      "dairy-free"
+    ],
+    "id": "ginger-garlic-stir-fry-88a0d1",
+    "ingredients": [
+      "broccoli",
+      "bell pepper",
+      "snap peas",
+      "garlic",
+      "ginger",
+      "soy sauce",
+      "sesame oil",
+      "chili flakes"
+    ],
+    "ingredients_zh": [
+      "西兰花",
+      "彩椒",
+      "荷兰豆",
+      "大蒜",
+      "姜",
+      "酱油",
+      "香油",
+      "辣椒碎"
+    ],
+    "name": "Ginger Garlic Vegetable Stir-Fry",
+    "name_zh": "姜蒜蔬菜快炒",
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "steps": [
+      "Stir-fry vegetables over high heat until crisp tender.",
+      "Add garlic, ginger, soy sauce, sesame oil, and chili flakes.",
+      "Cook 2 more minutes and serve."
+    ],
+    "steps_zh": [
+      "大火快炒蔬菜至脆嫩。",
+      "加入大蒜、姜、酱油、香油和辣椒碎。",
+      "再炒 2 分钟即可。"
+    ],
+    "time_minutes": 20,
+    "date": "2024-07-06",
+    "solar_term": "小暑"
+  },
+  {
+    "country_tags": [
+      "united states",
+      "europe"
+    ],
+    "dietary_tags": [
+      "dairy-free",
+      "gluten-free"
+    ],
+    "id": "apple-cinnamon-baked-oats-4a2f7b",
+    "ingredients": [
+      "rolled oats",
+      "almond milk",
+      "apple",
+      "cinnamon",
+      "maple syrup",
+      "baking powder",
+      "vanilla"
+    ],
+    "ingredients_zh": [
+      "燕麦片",
+      "杏仁奶",
+      "苹果",
+      "肉桂",
+      "枫糖浆",
+      "泡打粉",
+      "香草精"
+    ],
+    "name": "Apple Cinnamon Baked Oats",
+    "name_zh": "苹果肉桂烤燕麦",
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "steps": [
+      "Preheat oven to 375F.",
+      "Mix oats, milk, apple, cinnamon, maple, baking powder, and vanilla.",
+      "Bake 25 minutes until set."
+    ],
+    "steps_zh": [
+      "预热烤箱至 375F。",
+      "混合燕麦、牛奶、苹果、肉桂、枫糖浆、泡打粉和香草精。",
+      "烤 25 分钟至凝固。"
+    ],
+    "time_minutes": 30,
+    "date": "2024-07-22",
+    "solar_term": "大暑"
+  },
+  {
+    "country_tags": [
+      "thailand",
+      "southeast asia"
+    ],
+    "dietary_tags": [
+      "spicy",
+      "dairy-free"
+    ],
+    "id": "thai-basil-chicken-6c2e18",
+    "ingredients": [
+      "ground chicken",
+      "thai basil",
+      "garlic",
+      "chili",
+      "soy sauce",
+      "fish sauce",
+      "lime",
+      "jasmine rice"
+    ],
+    "ingredients_zh": [
+      "鸡肉末",
+      "泰国罗勒",
+      "大蒜",
+      "辣椒",
+      "酱油",
+      "鱼露",
+      "青柠",
+      "茉莉香米"
+    ],
+    "name": "Thai Basil Chicken",
+    "name_zh": "泰式罗勒鸡",
+    "seasons": [
+      "summer",
+      "spring"
+    ],
+    "steps": [
+      "Saute garlic and chili until fragrant.",
+      "Add chicken and cook until browned.",
+      "Stir in sauces and basil, finish with lime."
+    ],
+    "steps_zh": [
+      "炒香大蒜和辣椒。",
+      "加入鸡肉炒至变色。",
+      "加入酱汁和罗勒，最后挤入青柠。"
+    ],
+    "time_minutes": 25,
+    "date": "2024-08-07",
+    "solar_term": "立秋"
+  },
+  {
+    "country_tags": [
+      "united states",
+      "europe"
+    ],
+    "dietary_tags": [
+      "nut-free",
+      "vegetarian"
+    ],
+    "id": "creamy-tomato-soup-0b6e9c",
+    "ingredients": [
+      "tomatoes",
+      "onion",
+      "garlic",
+      "vegetable broth",
+      "cream",
+      "basil",
+      "olive oil"
+    ],
+    "ingredients_zh": [
+      "番茄",
+      "洋葱",
+      "大蒜",
+      "蔬菜高汤",
+      "奶油",
+      "罗勒",
+      "橄榄油"
+    ],
+    "name": "Creamy Tomato Soup",
+    "name_zh": "奶油番茄汤",
+    "seasons": [
+      "winter",
+      "autumn"
+    ],
+    "steps": [
+      "Saute onion and garlic in olive oil.",
+      "Add tomatoes and broth, simmer 20 minutes.",
+      "Blend smooth, stir in cream and basil."
+    ],
+    "steps_zh": [
+      "用橄榄油炒香洋葱和大蒜。",
+      "加入番茄和高汤，炖 20 分钟。",
+      "搅拌成泥后加入奶油和罗勒。"
+    ],
+    "time_minutes": 30,
+    "date": "2024-08-22",
+    "solar_term": "处暑"
+  },
+  {
+    "country_tags": [
+      "united states"
+    ],
+    "dietary_tags": [
+      "low-carb",
+      "high-protein",
+      "gluten-free"
+    ],
+    "id": "steak-and-garlic-green-beans-7e4a21",
+    "ingredients": [
+      "sirloin steak",
+      "green beans",
+      "garlic",
+      "butter",
+      "salt",
+      "pepper"
+    ],
+    "ingredients_zh": [
+      "西冷牛排",
+      "四季豆",
+      "大蒜",
+      "黄油",
+      "盐",
+      "黑胡椒"
+    ],
+    "name": "Steak and Garlic Green Beans",
+    "name_zh": "牛排配蒜香四季豆",
+    "seasons": [
+      "winter",
+      "autumn"
+    ],
+    "steps": [
+      "Season steak with salt and pepper, sear to desired doneness.",
+      "Saute green beans with garlic and butter until tender.",
+      "Slice steak and serve with green beans."
+    ],
+    "steps_zh": [
+      "牛排用盐和黑胡椒调味，煎至喜欢的熟度。",
+      "用大蒜和黄油炒四季豆至软嫩。",
+      "切片牛排，与四季豆一起上桌。"
+    ],
+    "time_minutes": 25,
+    "date": "2024-09-07",
+    "solar_term": "白露"
+  },
+  {
+    "country_tags": [
+      "france",
+      "europe"
+    ],
+    "dietary_tags": [
+      "vegetarian",
+      "nut-free"
+    ],
+    "id": "spring-pea-and-leek-tart-9d8a3b",
+    "ingredients": [
+      "puff pastry",
+      "leeks",
+      "peas",
+      "egg",
+      "milk",
+      "thyme",
+      "salt",
+      "pepper"
+    ],
+    "ingredients_zh": [
+      "起酥皮",
+      "韭葱",
+      "豌豆",
+      "鸡蛋",
+      "牛奶",
+      "百里香",
+      "盐",
+      "黑胡椒"
+    ],
+    "name": "Spring Pea and Leek Tart",
+    "name_zh": "春豌豆韭葱塔",
+    "seasons": [
+      "spring"
+    ],
+    "steps": [
+      "Saute leeks until soft.",
+      "Whisk egg, milk, thyme, salt, and pepper.",
+      "Bake pastry with leeks and peas, pour in egg mixture, bake until set."
+    ],
+    "steps_zh": [
+      "把韭葱炒至变软。",
+      "搅匀鸡蛋、牛奶、百里香、盐和黑胡椒。",
+      "将韭葱和豌豆铺在酥皮上，倒入蛋液烤至凝固。"
+    ],
+    "time_minutes": 35,
+    "date": "2024-09-22",
+    "solar_term": "秋分"
+  },
+  {
+    "country_tags": [
+      "middle east"
+    ],
+    "dietary_tags": [
+      "vegan",
+      "dairy-free",
+      "nut-free"
+    ],
+    "id": "sumac-roasted-cauliflower-4c1d8e",
+    "ingredients": [
+      "cauliflower",
+      "sumac",
+      "olive oil",
+      "lemon",
+      "garlic",
+      "parsley",
+      "salt",
+      "pepper"
+    ],
+    "ingredients_zh": [
+      "花椰菜",
+      "苏木香",
+      "橄榄油",
+      "柠檬",
+      "大蒜",
+      "欧芹",
+      "盐",
+      "黑胡椒"
+    ],
+    "name": "Sumac Roasted Cauliflower",
+    "name_zh": "苏木香烤花椰菜",
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "steps": [
+      "Toss cauliflower with olive oil, sumac, garlic, salt, and pepper.",
+      "Roast at 425F for 25 minutes.",
+      "Finish with lemon and parsley."
+    ],
+    "steps_zh": [
+      "将花椰菜与橄榄油、苏木香、大蒜、盐和黑胡椒拌匀。",
+      "以 425F 烤 25 分钟。",
+      "出炉后拌入柠檬和欧芹。"
+    ],
+    "time_minutes": 30,
+    "date": "2024-10-08",
+    "solar_term": "寒露"
+  },
+  {
+    "country_tags": [
+      "united states",
+      "europe"
+    ],
+    "dietary_tags": [
+      "quick",
+      "nut-free"
+    ],
+    "id": "summer-corn-tomato-salad-3b0f2d",
+    "ingredients": [
+      "corn",
+      "cherry tomatoes",
+      "red onion",
+      "basil",
+      "olive oil",
+      "lime",
+      "salt",
+      "pepper"
+    ],
+    "ingredients_zh": [
+      "玉米",
+      "樱桃番茄",
+      "红洋葱",
+      "罗勒",
+      "橄榄油",
+      "青柠",
+      "盐",
+      "黑胡椒"
+    ],
+    "name": "Summer Corn and Tomato Salad",
+    "name_zh": "夏季玉米番茄沙拉",
+    "seasons": [
+      "summer"
+    ],
+    "steps": [
+      "Mix corn, tomatoes, onion, and basil.",
+      "Toss with olive oil, lime, salt, and pepper."
+    ],
+    "steps_zh": [
+      "将玉米、番茄、洋葱和罗勒混合。",
+      "拌入橄榄油、青柠、盐和黑胡椒。"
+    ],
+    "time_minutes": 10,
+    "date": "2024-10-23",
+    "solar_term": "霜降"
+  }
+]

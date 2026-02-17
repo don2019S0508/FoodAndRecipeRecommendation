@@ -1,0 +1,18 @@
+# Recipe Recommender - Python Dependencies
+# This project uses only Python standard library modules
+
+# Minimum Python version required: 3.10+
+# Required for: match/case syntax, | union types, TypedDict with total=False
+
+# Standard library modules used (no installation required):
+# - argparse
+# - csv
+# - datetime
+# - json
+# - math
+# - pathlib
+# - re
+# - tkinter
+# - typing
+# - unittest
+# - uuid

@@ -1,0 +1,1 @@
+"""Seasonal recipe recommender package."""
