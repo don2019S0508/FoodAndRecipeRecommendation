@@ -7,6 +7,7 @@ from recipe_recommender.recommendation import (
     parse_requirements,
     recommend_recipe,
 )
+from recipe_recommender.gui import RecipeApp
 
 
 class RequirementParsingTests(unittest.TestCase):
@@ -79,6 +80,32 @@ class RecommendTests(unittest.TestCase):
         stats = {}
         selected = recommend_recipe(recipes, stats, "winter", "United States", {"include": [], "exclude": [], "max_time": None})
         self.assertEqual(selected["id"], "b")
+
+
+class LunarTermFormattingTests(unittest.TestCase):
+    def test_popular_recipe_text_in_chinese(self):
+        app = RecipeApp.__new__(RecipeApp)
+        app.lang = "zh"
+        app.stats = {"r1": {"total_score": 8.0, "count": 2}}
+        app.recipes = []
+
+        recipe = {
+            "id": "r1",
+            "name": "Sweet Potato",
+            "name_zh": "红薯",
+            "ingredients": ["sweet potato"],
+            "ingredients_zh": ["红薯"],
+            "steps": ["Bake."],
+            "steps_zh": ["烤制。"],
+            "time_minutes": 30,
+        }
+
+        text = app._build_popular_recipe_text(recipe)
+        self.assertIn("最受欢迎食谱: 红薯", text)
+        self.assertIn("评分: 4.0/5", text)
+        self.assertIn("时间: 30 分钟", text)
+        self.assertIn("食材:", text)
+        self.assertIn("步骤:", text)
 
 
 if __name__ == "__main__":

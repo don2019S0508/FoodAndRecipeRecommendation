@@ -123,22 +123,24 @@ def match_requirements(recipe: Recipe, requirements: dict[str, object]) -> bool:
     return True
 
 
+# Calculate rating score with popularity weighting
 def score_recipe(recipe_id: str, stats: RatingsById, total_views: int) -> float:
     entry = stats.get(recipe_id, {"views": 0, "total_score": 0.0, "count": 0})
     views = entry["views"]
     count = entry["count"]
     avg = entry["total_score"] / count if count else 3.0
-    bonus = math.sqrt(math.log(total_views + 1) / (views + 1))
+    weight = count / (count + 10)
+    popularity = math.log(total_views + 1) / (views + 1)
+    bonus = math.sqrt(popularity) * weight
     return avg + bonus
 
 
+# Select recipe prioritized by score and view count
 def choose_recipe(candidates: list[Recipe], stats: RatingsById) -> Recipe:
     total_views = sum(entry.get("views", 0) for entry in stats.values())
-    scored = [(score_recipe(recipe["id"], stats, total_views), recipe) for recipe in candidates]
-    scored.sort(key=lambda item: item[0], reverse=True)
-    return scored[0][1]
-
-
+    scored = [(score_recipe(recipe["id"], stats, total_views), stats.get(recipe["id"], {}).get("views", 0), recipe) for recipe in candidates]
+    scored.sort(key=lambda item: (item[0], item[1]), reverse=True)
+    return scored[0][2]
 def recommend_recipe(
     recipes: list[Recipe],
     stats: RatingsById,
@@ -146,6 +148,7 @@ def recommend_recipe(
     area: str,
     requirements: dict[str, object],
 ) -> Recipe | None:
+# New recommendation logic: weighted score + popularity tie‑break
     area_lower = area.lower() if area else ""
     matched = [
         recipe

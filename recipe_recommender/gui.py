@@ -847,36 +847,7 @@ class RecipeApp(tk.Tk):
 
             matching_recipes.sort(key=get_rating, reverse=True)
             most_popular = matching_recipes[0]
-            popular_name = most_popular.get("name", "")
-            popular_id = most_popular.get("id", "")
-            popular_stats = self.stats.get(popular_id, {})
-            popular_count = popular_stats.get("count", 0)
-            popular_total = popular_stats.get("total_score", 0)
-
-            if popular_count > 0:
-                popular_rating = popular_total / popular_count
-                if self.lang == "zh":
-                    popular_recipe_text = f"\n\n⭐ 最受欢迎食谱: {popular_name} (评分: {popular_rating:.1f}/5)"
-                else:
-                    popular_recipe_text = f"\n\n⭐ Most Popular Recipe: {popular_name} (Rating: {popular_rating:.1f}/5)"
-            else:
-                if self.lang == "zh":
-                    popular_recipe_text = f"\n\n⭐ 最受欢迎食谱: {popular_name}"
-                else:
-                    popular_recipe_text = f"\n\n⭐ Most Popular Recipe: {popular_name}"
-
-            popular_ingredients = most_popular.get("ingredients", [])
-            popular_steps = most_popular.get("steps", [])
-            popular_time = most_popular.get("time_minutes")
-
-            if self.lang == "zh":
-                popular_recipe_text += f"\n   时间: {popular_time} 分钟" if popular_time else ""
-                popular_recipe_text += "\n   食材:\n" + "\n".join(f"     - {item}" for item in popular_ingredients)
-                popular_recipe_text += "\n   步骤:\n" + "\n".join(f"     {idx}. {step}" for idx, step in enumerate(popular_steps, start=1))
-            else:
-                popular_recipe_text += f"\n   Time: {popular_time} minutes" if popular_time else ""
-                popular_recipe_text += "\n   Ingredients:\n" + "\n".join(f"     - {item}" for item in popular_ingredients)
-                popular_recipe_text += "\n   Steps:\n" + "\n".join(f"     {idx}. {step}" for idx, step in enumerate(popular_steps, start=1))
+            popular_recipe_text = self._build_popular_recipe_text(most_popular)
 
         self.lunar_output.delete("1.0", tk.END)
         self.lunar_output.insert(
@@ -890,6 +861,49 @@ class RecipeApp(tk.Tk):
             + "\n".join(f"- {item}" for item in tips)
             + popular_recipe_text
         )
+
+    def _build_popular_recipe_text(self, most_popular: Recipe) -> str:
+        if self.lang == "zh":
+            self._ensure_chinese_fields(most_popular)
+
+        popular_name = most_popular.get("name", "")
+        if self.lang == "zh":
+            popular_name = most_popular.get("name_zh") or popular_name
+        popular_id = most_popular.get("id", "")
+        popular_stats = self.stats.get(popular_id, {})
+        popular_count = popular_stats.get("count", 0)
+        popular_total = popular_stats.get("total_score", 0)
+
+        if popular_count > 0:
+            popular_rating = popular_total / popular_count
+            popular_recipe_text = (
+                f"\n\n* {self._t('label_popular_recipe')}: {popular_name} "
+                f"({self._t('label_rating')}: {popular_rating:.1f}/5)"
+            )
+        else:
+            popular_recipe_text = f"\n\n* {self._t('label_popular_recipe')}: {popular_name}"
+
+        popular_ingredients = most_popular.get("ingredients", [])
+        popular_steps = most_popular.get("steps", [])
+        popular_time = most_popular.get("time_minutes")
+
+        if self.lang == "zh":
+            popular_ingredients = most_popular.get("ingredients_zh") or popular_ingredients
+            popular_steps = most_popular.get("steps_zh") or popular_steps
+
+        popular_recipe_text += (
+            f"\n   {self._t('label_time')}: {popular_time} {self._t('minutes')}"
+            if popular_time else ""
+        )
+        popular_recipe_text += (
+            f"\n   {self._t('label_ingredients')}:\n"
+            + "\n".join(f"     - {item}" for item in popular_ingredients)
+        )
+        popular_recipe_text += (
+            f"\n   {self._t('label_steps')}:\n"
+            + "\n".join(f"     {idx}. {step}" for idx, step in enumerate(popular_steps, start=1))
+        )
+        return popular_recipe_text
 
     def _update_views(self, recipe_id: str) -> None:
         entry = self.stats.setdefault(recipe_id, {"views": 0, "total_score": 0.0, "count": 0})
@@ -926,6 +940,8 @@ class RecipeApp(tk.Tk):
                 "label_solar_term": "Solar Term",
                 "label_recipes": "Recipes",
                 "label_tips": "Tips",
+                "label_popular_recipe": "Most Popular Recipe",
+                "label_rating": "Rating",
             },
             "zh": {
                 "msg_invalid_date": "请输入 YYYY-MM-DD 格式的日期。",
@@ -951,6 +967,8 @@ class RecipeApp(tk.Tk):
                 "label_solar_term": "节气",
                 "label_recipes": "推荐食谱",
                 "label_tips": "养生注意事项",
+                "label_popular_recipe": "最受欢迎食谱",
+                "label_rating": "评分",
             },
         }
         return labels[self.lang][key]
